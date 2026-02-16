@@ -1,0 +1,5 @@
+print("ajay")
+print("ajay\ndhakad")
+print("\"ajay\"")
+print("\"Teacher\'s day\"")
+print("\\n")
