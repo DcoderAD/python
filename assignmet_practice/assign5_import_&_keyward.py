@@ -9,5 +9,11 @@
 
 #3rd method go into python shell and print keyword using help() function
 
+
 #there are 3 keyword which used as data too.only these 3 keywords starts with capital 
           
+#del keyword
+# a=22
+# print(a)#till now a is not deleted it will print 22
+# del a
+# print(a) #so now a is deleted it will give error
