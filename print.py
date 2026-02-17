@@ -38,6 +38,6 @@
 # Escape sequences    
 # print("hello\rA")#will replace first latter of hello and become aello
 # print("\\")
-# print("\"")
+print("\"")
 # print("\'")
-# print("hello\b")
+# # print("hello\b")
