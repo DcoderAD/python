@@ -1,0 +1,51 @@
+>>> 3>4
+False
+>>> 4!=4
+False
+>>> 10<15
+True
+>>> #in python we can  compare strings too using comparision operators
+KeyboardInterrupt
+>>> s1='ajay'
+>>> s2='Ajay'
+>>> s3='ajay'
+>>> s1==s2
+False
+>>> s1==s3
+True
+>>> 3=='3'
+False
+>>> 3>'3'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    3>'3'
+TypeError: '>' not supported between instances of 'int' and 'str'
+>>> 4==4.0
+True
+>>> 4>4.0
+False
+>>> #4>4.0 me dono number type hai isliye error na deke False aa gaya
+>>> #complex num me comparision me inequality operator kam nahi karega error dega but equality operator kam karega
+KeyboardInterrupt
+>>> 3+4j>4-2j
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    3+4j>4-2j
+TypeError: '>' not supported between instances of 'complex' and 'complex'
+>>> 3+4j==4-2j
+False
+>>> 3+4j!=4-2j
+True
+>>> True>False
+True
+>>> # True is 1 and False is 0
+>>> int(True)
+1
+>>> int(False)
+0
+>>> 10>8>6>4>3
+True
+>>> #in c 10>8>6>4>2 10>8true ho ke 1 aayega then 1>6 compare hoga in python each comparision ko chk krega jese 10>8 true hai,8>6 true hai,6>4 true,4>2true so the answere is true
+>>> 10>8>6>4>2>3
+False
+>>> 

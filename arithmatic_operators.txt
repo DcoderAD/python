@@ -1,0 +1,36 @@
+# >>> #floor division---->
+# >>> 5//2
+# 2
+# >>> #floor division is similar division as we see in c
+# >>> 5.0//2
+# 2.0
+# >>> #5.0//2 me answere float me aayega but only floor value aayegi . ke baaad to 0 hi aayega
+# >>> 3*4
+# 12
+# >>> #modulus operator
+# >>> 10%4
+# 2
+# >>> #modulus work on float numbers too
+# >>> 10.5/4
+# 2.625
+# >>> #esa c me nahi hota tha 
+# >>> 3/4
+# 0.75
+# >>> 3%4
+# 3
+# >>> #small number ko % krne par wahi aayega
+# >>> 234%10
+# 4
+# >>> # divisibility chk krne ke liye bhi % mod use hota hai kyuki reminder 0 bachega
+# >>> -5%2
+# 1
+# >>> 5%-2
+# -1
+# >>> #mod operation me right operand pe jo sign hai wo hi answere me sign aayega
+# >>> 'ab'*3
+# 'ababab'
+# >>> 
+# KeyboardInterrupt
+# >>> 
+
+#** ki priority max hai * / % ki priority + - se jyada hai

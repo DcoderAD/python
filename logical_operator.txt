@@ -1,0 +1,87 @@
+>>> #logical operator
+>>> not True
+False
+>>> not False
+True
+>>> not 1
+False
+>>> not 0
+True
+>>> not 5>4
+False
+>>> not !4=4
+  File "<stdin>", line 1
+    not !4=4
+        ^
+SyntaxError: invalid syntax
+>>> not 4!=4
+True
+>>> not 5
+False
+>>> #as we know every non zero is true
+>>> # not 4. 5
+>>> not 4.5
+False
+>>> not 0
+True
+>>> not 0.0
+True
+>>>  not ''
+  File "<stdin>", line 1
+    not ''
+IndentationError: unexpected indent
+>>>  not ' '
+  File "<stdin>", line 1
+    not ' '
+IndentationError: unexpected indent
+>>> not 'abc'
+False
+>>>  not ' '
+  File "<stdin>", line 1
+    not ' '
+IndentationError: unexpected indent
+>>> not None
+True
+>>> #and ,or operators----->
+>>> 5>4 and 3>0
+True
+>>> 5>4 and 3<0
+False
+>>> 5<4 and 3>0
+False
+>>> 5>4 or 3>0
+True
+>>> 5<4 or 3<0
+False
+>>> #upr example me expression book type hai.agar expression bool type nahi ho tb tricky ho jata hai
+>>> 3and4
+  File "<stdin>", line 1
+    3and4
+    ^
+SyntaxError: invalid decimal literal
+>>> 3 and 4
+4
+>>> #3 and 4 me dono non zero hai to true value hai....as we know and me dono true ho tabhi true answere aayega and ek bhi false ho to false ho jayega to.3and4 ke case me 3 to true hai ab hame chk krna hai kya 4 bhi true hai kyuki 4 bhi true hoga tabhi dono true honge and answere bhi true aayega ...means answere 4 pr dependent hai isliye agar and true aata hai to result me 4 aayge?? 
+>>> 0 and 4
+0
+>>> #yaha first hi 0 means false aa gaya ....and we knwo and ke case me ek bhi false result ko false kr dega...so answere 0 se hi decide ho gaya so the result is 0
+>>> #so ultimately jispe result depend kr raha hai wahi answere hai
+>>> 3 and 4>0
+True
+>>> #result 4>0 pr dependent tha and 4>0 ka answere bool type hai to true aaya
+>>> 0 and 4>0
+0
+>>> #o means false....ek false hote hi and ke case me aage chk nhi karenge and o se hi result aayega to result will be 0....0 bool nahi hai
+>>> #same concept or pe bhi lagu honge
+>>> 'ram' or 'shyam'
+'ram'
+>>> # or me ek true means result true .....first string 'ram' true hai to result 'ram ho jayega next string chk krne ki jarurt hi nahi 
+>>> 'ram' or 'shyam'
+'ram'
+>>> 'ram' and 'shyam'
+'shyam'
+>>> 5 and 0
+0
+>>> 5 and 3+5
+8
+>>> 
