@@ -1,0 +1,45 @@
+#assignment operator
+>>> #left me hamesha varible ho remember that
+>>> a=4
+>>> 4=a
+  File "<stdin>", line 1
+    4=a
+    ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+>>>  x=x+2
+  File "<stdin>", line 1
+    x=x+2
+IndentationError: unexpected indent
+>>> a=a+2
+>>> a
+6
+>>> #compound assignment operator
+>>> x=3
+>>> x+=3
+>>> x
+6
+>>> #python me increment and decrement operator nahi hote hai
+>>> x++
+  File "<stdin>", line 1
+    x++
+       ^
+SyntaxError: invalid syntax
+>>> x--
+  File "<stdin>", line 1
+    x--
+       ^
+SyntaxError: invalid syntax
+>>> x+=1
+>>> x
+7
+>>> x-=1
+>>> x
+6
+>>> x,y,z=2,4,6
+>>> x
+2
+>>> y
+4
+>>> z
+6
+>>> 

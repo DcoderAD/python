@@ -1,0 +1,24 @@
+>>> #identity operator
+>>> x=4
+>>> y=4
+>>> x is y
+True
+>>> x is not y
+False
+>>> x='abc'
+>>> x='ABC'
+>>> y='ABC'
+>>> del(x)
+>>> x
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    x
+NameError: name 'x' is not defined
+>>> del(y)
+>>> x='abc'
+>>> y='ABC'
+>>> x is y
+False
+>>> x is not y
+True
+>>> 

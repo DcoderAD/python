@@ -1,0 +1,35 @@
+ a=25&37
+>>> a
+1
+>>> a=44|71
+>>> a
+111
+>>> #or me 1 bhi one hai to result one ayega
+>>> #ex-or---->
+>>>  #exclusive or me exclusively ek operand 1 hona chahiye ya ye bolo ki dono operand different ho to 1 aayega
+>>> a=20^0
+>>> a
+20
+>>> a=20^30
+>>> a
+10
+>>> x=~5
+>>> x
+-6
+>>> #MSB(0)--->number positive
+>>> #MSB(1)----->number negative
+>>> #right shift operator
+>>> a=105>>2
+>>> a
+26
+>>> #105>>2 me pahle 105 ka binary hoga fir right me 2 bar shift hoga
+>>> 
+KeyboardInterrupt
+>>>  x=12<<3
+  File "<stdin>", line 1
+    x=12<<3
+IndentationError: unexpected indent
+>>> x=12<<3
+>>> x
+96
+>>> 

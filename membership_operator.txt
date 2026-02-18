@@ -1,0 +1,34 @@
+#membership operator
+>>> s1='i am an engineer'
+>>> engineer in s1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    engineer in s1
+    ^^^^^^^^
+NameError: name 'engineer' is not defined
+>>> "engineer" in s1
+True
+>>> "Engineer" in s1 #E capital
+False
+>>> "engineer" not in s1
+False
+>>> "i" in s1
+True
+>>> #ek alphabate bhi check kr skte hai
+>>> "x" in s1
+False
+>>> x=12445
+>>> 4 in x
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    4 in x
+TypeError: argument of type 'int' is not a container or iterable
+>>> #membership operator container and iterables pe hi lagta hai
+>>> l1=[10,20,30,40,50]
+>>> 20 in l1
+True
+>>> 70 in l1
+False
+>>> 70 not in l1
+True
+>>> 
