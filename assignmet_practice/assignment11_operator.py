@@ -4,18 +4,16 @@
 # print("my" not in s)
 
 # input two string from usercheck if 2 variable refered to the same object
-a='hello'
-b='hello'
-print(a is b)
-
-
+#
+a3='abc'
+a4='abc'
 
 a1=input("Enter first string\n")
 a2=input("Enter second string\n")
 print(a1 is a2)
 
-a1 and a2 me input function use krke same string input dene pe iska answere False kyu aa raha hai??? 
-a1 and a2 same object ko refer nahi kar rahe hai??
+#a1 and a2 me input function use krke same string input dene pe iska answere False kyu aa raha hai??? 
+#a1 and a2 same object ko refer nahi karenge ??
 
 # a=10
 # b=10
