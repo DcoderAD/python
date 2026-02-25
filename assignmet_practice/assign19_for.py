@@ -24,10 +24,11 @@
 n=int(input("Enter number"))
 k=''
 for e in str(n):
-    if e!=k:
-      k=str(e)
-      print(e)
-    
+    if e in k:
+      pass
+    else:
+       print(e)
+    k+=e
 
 
 
