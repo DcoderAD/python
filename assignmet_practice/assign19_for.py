@@ -30,6 +30,14 @@ for e in str(n):
        print(e)
     k+=e
 
+# unique digit using index() function because index function always give unique single index number for unique element is does not give another index to same element
+s=input("Enter string")
+i=0
+for e in s:
+   if s.index(e)==i:
+      print(e,end=' ')
+   i+=1
+    
 
 
 # count number of digits in given integer

@@ -2,6 +2,10 @@
 # r=range(1,11)
 # for e in r:
 #     print(e*5)
+        # or
+# for e in range(1,int(input("how many number you want"))+1)
+#     print(e*2)
+
 
 
 # first 10 multiple of n
@@ -25,8 +29,18 @@
 # for e in r:
 #     print(e*n)
 
+
+
+
+
 # print table of users choice
 # r=range(1,11)
 # n=int(input("Enter number which table you want"))
 # for e in r:
 #     print(e*n)
+
+            # or
+#we can use format() function too
+# n=int(input("enter your number"))
+# for w in range(1,11):
+#     print("{}*{}={}".format(n,w,n*w))
