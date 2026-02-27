@@ -34,7 +34,7 @@ range can contain only integer data.But in list you can store element of any typ
                         # print elements
 
 # print using while loop.use for loop wo better hai
-"""
+"""  
 l1=[10,20,30]
 i=0
 while i<=2:
