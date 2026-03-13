@@ -21,8 +21,19 @@
 
 
 # print binary of given decimal number
-b=''
-n=int(input("Enter number"))
-while n%2!=1:
-    b=b+str(n%2)
-print(b)
+# b=''
+# n=25
+# while n:
+#     b=str(n%2)+b  
+#     n=n//2
+# print(b)
+# print()
+
+# #print octal of given decimal
+# s=''
+# n=25
+# while n:
+#     s=str(n%8)+s
+#     n=n//8
+# print(s)
+# print()

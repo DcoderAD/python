@@ -28,12 +28,12 @@
 
 # DISPLAY ALL PRIME NUMBERS WITHIN range
 # START=15,END=45
-prime=[]
-for num in range(15,48,1):
-   if num>1:
-      for a in range(2,int(num**0.5)+1):
-            if num%a==0:
-                break
-            else:
-                prime.append(num)
-print(prime)
+# start=int(input("Enter start number"))
+# end=int(input("Enter end number"))
+# for num in range(start,end):
+#     for a in range(2,num):
+#             if (num%a==0):
+#                 break
+#     else:
+#         print(num,end=' ')
+  
